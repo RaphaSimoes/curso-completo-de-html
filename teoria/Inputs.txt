@@ -21,13 +21,17 @@ Color (cor)
         <input type="color">
 
 Date (data)
-
+    campos de entrada de criação que permitem que o usuário insira uma data. 
+    
     <input type="date">
 
-<input type="datetime-local">
+ datetime-local (data e hora)
+    criam controles de entrada que permitem ao usuário inserir facilmente uma data e uma hora, incluindo o ano, o mês e o dia, bem como a hora em horas e minutos.
+    <input type="datetime-local"> 
 
 Email
-    <input type="email">
+    são usados ​​para permitir que o usuário insira e edite um endereço de e-mail ou, se o multipleatributo for especificado, uma lista de endereços de e-mail.
+    <input type="email" id="email">
 
 file (pasta)
     <input type="file">
