@@ -1,12 +1,13 @@
-HTML (HyperText Markup Language) (Linguagem de marcação de Hipertexto)
-É o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.
+HTML 
+  (HyperText Markup Language) (Linguagem de marcação de Hipertexto)
+  É o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.
 
-"Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites
+  "Hipertexto" refere-se aos links que conectam páginas da Web entre si, seja dentro de um único site ou entre sites
 
 Estrutura HTML
 
-!DOCTYPE html> (Definição do documento)
-<html lang="pt-br"> (difinir o idioma)
+  !DOCTYPE html> (Definição do documento)
+  <html lang="pt-br"> (difinir o idioma)
   <head> (cabeça)
     <title></title> (Título da página)
     <meta charset="utf-8"> 
@@ -14,29 +15,29 @@ Estrutura HTML
   <body> (corpo Pai)
     Aqui vai o código HTML que fará seu site aparecer.
   </body>
-</html>
+  </html>
 
-Essa estrutura é basica, podemos melhorar colocando as seguintes tags semânticas:
+  Essa estrutura é basica, podemos melhorar colocando as seguintes tags semânticas:
     • <header>  (cabeçalho)
     • <main>    (copo)
     • <footer>  (rodapé)
     • <section> (define uma seção genérica em um documento)
     • <nav>     (define uma área de navegação)
 
-Essas tags não são visíveis aos usuários, mas faz uma melhor divisão do nosso HTML.
+  Essas tags não são visíveis aos usuários, mas faz uma melhor divisão do nosso HTML.
 
 Meta tags
-Define metadados sobre um documento HTML.
+  Define metadados sobre um documento HTML.
 
-As tags sempre ficam dentro do elemento <head> e normalmente são usadas para especificar o conjunto de caracteres, a descrição da página, as palavras-chave, o autor do documento e as configurações da janela de visualização.
+  As tags sempre ficam dentro do elemento <head> e normalmente são usadas para especificar o conjunto de caracteres, a descrição   da página, as palavras-chave, o autor do documento e as configurações da janela de visualização.
 
-Os metadados não serão exibidos na página, mas podem ser analisados ​​por máquina.
+  Os metadados não serão exibidos na página, mas podem ser analisados ​​por máquina.
 
     • <meta name="keywords" content="HTML, CSS, JavaScript"> (Defina palavras-chave para mecanismos de busca (SEO))
     • <meta name="description" content="Free Web tutorials for HTML and CSS"> (Descrição da Página)
     • <meta name="author" content="John Doe"> (informa o autor da Página)
     • <meta http-equiv="refresh" content="30"> (Atualiza a página a cada 30 seg)
-    • <meta name="viewport" content="width=device-width, initial-scale=1.0"> (Configura a janela de visualização, para todos os dispositivos)
+    • <meta name="viewport" content="width=device-width, initial-scale=1.0"> (Configura a janela de visualização, para todos os   dispositivos)
 
 Principais Tags de texto
     • <h1> até o <h6>: (títulos com hierarquia, lembrando que o H1 só pode ser usado apenas uma vez.)
@@ -46,7 +47,9 @@ Principais Tags de texto
     • <em>: (Ele deixa o texto em itálico, destacando o que é importante)
     • <i> : (Ele deixa o texto em itálico, mas apenas é usado visualmente)
     • <br>: (Quebra de linha)
-    • <abbr>: (Abreviação) (Ao passar o maouse na palavra abreviada ele mostra em uma pequena janela o texto inteiro)
+    • <abbr>: (Abreviação) (Ao passar o maouse na palavra abreviada ele mostra em uma pequena janela o texto inteiro) 
+    • <label> : representa uma legenda para um item em uma interface de usuário.
+    • <form> : representa uma seção do documento contendo controles interativos para enviar informações.
 
 Tags de listas
     • <ul> : (lista não ordenada)
@@ -59,10 +62,7 @@ Tags de listas
         <li> conteúdo </li>
     </ul> ou </ol>
 
-
 Outras tags mais usadas:
     • <a> : (âncora para links)
     • <img> : (imagem)
-
-
-    
+  

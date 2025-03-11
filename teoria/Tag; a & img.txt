@@ -1,0 +1,55 @@
+TAG <a>
+A tag âncora define um hiperlink que vincula uma página a outra página . Ela pode criar um hiperlink para outra página da web, bem como arquivos, localização ou qualquer URL. 
+
+O atributo "href" é o atributo mais importante da tag HTML a. e que vincula à página de destino ou URL.
+
+sintaxe:
+<a href = "..........."> Texto do link </a>
+
+Atributos
+
+    • href : A URL para qual o hiperlink aponta. Links não são restritos a URLs baseados no protocolo HTTP — eles podem utilizar qualquer tipo de URL suportado pelos navegadores:
+    
+    • target : Onde exibir a URL vinculada, como o nome para um contexto de navegação (uma aba, janela)
+       - blanck : Normalmente uma nova aba, porém os usuários podem configurar seus navegadores para abrir uma nova janela.
+        - self : No atual contexto de pesquisa. (Padrão)
+
+
+TAG <img>
+Usamos o elemento <img>. Isso é um elemento vazio (quer dizer que não possui conteúdo de texto ou tag de fechamento) que requer no mínimo um atributo para ser útil — src (às vezes pronunciado como seu título completo, source). 
+
+Atributos
+
+    • src= : contém um caminho apontando para a imagem que você deseja incorporar na página, que pode ser uma URL relativa ou absoluta, da mesma maneira que o valores de atributo href no elemento <a>.
+
+exemplo;
+
+<img src="dinossauro.jpg" />
+
+Você pode incorporar a imagem usando seu URL absoluto, por exemplo:
+
+<img src="https://www.example.com/images/dinosaur.jpg" />
+
+Mas isso é inútil, pois apenas faz o navegador trabalhar mais, pesquisando o endereço IP do servidor DNS novamente, etc. Você quase sempre manterá as imagens do seu site no mesmo servidor que o HTML.
+
+    • alt="" :Seu valor deve ser uma descrição textual da imagem, para uso em situações em que a imagem não pode ser vista/exibida ou leva muito tempo para renderizar devido a uma conexão lenta à Internet. Por exemplo, nosso código acima pode ser modificado da seguinte maneira: 
+
+    <img
+        src="images/dinosaur.jpg"
+        alt="The head and torso of a dinosaur skeleton;
+            it has a large head with long sharp teeth" />
+
+A maneira mais fácil de testar seu texto alt é digitar incorretamente seu nome de arquivo. Se, por exemplo, o nome da nossa imagem estivesse escrito dinosooooor.jpg, o navegador não exibiria a imagem, mas exibiria o texto alternativo
+
+    • title="" : Fornecer mais informações de suporte, se necessário. No nosso exemplo, poderíamos fazer isso:
+
+        <img
+        src="images/dinosaur.jpg"
+        alt="The head and torso of a dinosaur skeleton;
+            it has a large head with long sharp teeth" 
+        title"Um T-Rex em exibição no Museu da Universidade de Manchester"/>
+
+
+
+
+

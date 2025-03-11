@@ -1,0 +1,67 @@
+
+Buttom (botão)
+
+    Elementos <input> do tipo button são renderizados como um botão simples, que podem ser programados para controlar   funcionalidades personalizadas em qualquer lugar de uma página web quando para atribuir um evento (tipicamente para um evento   click).
+
+    exemplo:
+    <input class="styled" type="button" value="Add to favorites" />
+
+Chackbox (caixa de seleção)
+
+    São renderizados por padrão como caixas quadradas que são marcadas (com uma marca de verificação) quando ativados, como você veria em um formulário do governo.
+
+    exemplo:
+    <form> Caixa de seleção <br>
+        <input type="checkbox" id="caixa de seleção" name="caixa de seleção" value="caixa de seleção"><label> Selecione aqui</label>   
+    </form>
+
+Color (cor)
+    fornecem um elemento de interface do usuário que permite que o usuário especifique uma cor, usando uma interface de seletor de cores visual ou inserindo a cor em um campo de texto em #rrggbb formato hexadecimal.
+    exemplo:
+        <input type="color">
+
+Date (data)
+
+    <input type="date">
+
+<input type="datetime-local">
+
+Email
+    <input type="email">
+
+file (pasta)
+    <input type="file">
+
+<input type="hidden">
+
+image (imagem)
+    <input type="image">
+
+month (mês)
+    <input type="month">
+
+number (número) 
+    <input type="number">
+
+password (senha)
+    <input type="password">
+
+<input type="radio">
+
+<input type="range">
+<input type="reset">
+
+search (pesquisa)
+    <input type="search">
+
+<input type="submit">
+<input type="tel">
+
+text (texto)
+    <input type="text">
+
+<input type="time">
+
+<input type="url">
+
+<input type="week">
