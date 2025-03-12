@@ -8,34 +8,133 @@
         <h1> Tipos de input</h1>
     </header>
     <main>
+    <!-- Botão -->
+        <section>
         <h2>Botão</h2>
             <input class="styled" type="button" value="Add to favorites" /> 
-        <h2> Caixa de seleção</h2>
+        </section>
 
-            <form> Caixa de seleção <br>
-            <input type="checkbox" id="caixa de seleção" name="caixa de seleção" value="caixa de seleção"><label> Selecione aqui</label>   
-            /form>
+    <!-- Caixa de seleção -->
+        <form>
+            <h2> Caixa de seleção</h2>
+                <input type="checkbox" id="caixa de seleção" name="caixa de seleção" value="caixa de seleção"><label> Selecione aqui</label>   
+        </form>
 
-        <h2> Caixa de cor</h2>
-            <div>
-                <input type="color" id="cor" name="cor" value="#f6b73c" />
+    <!-- Caixa de cor -->
+        <div>
+            <h2> Caixa de cor</h2>
+                <input type="color" id="cor" name="cor" value="#FF007F" />
                 <label for="cor">Escolha uma cor</label>
-            </div>
+        </div>
 
-        <h2>Data</h2>
+    <!-- Data -->
+        <section>
+            <h2>Data</h2>
             <label for="data">Escolha uma data</label> <br>
             <input type="date">
+        </section>
 
-        <h2>Data e hora</h2>
+    <!-- Data e Hora -->
+        <section>
+            <h2>Data e hora</h2>
             <label for="datahora">Insira data e hora</label> <br>
             <input type="datetime-local">
-        
-        <h2>Email</h2>
-            <label for="Email">Insira um Email</label> <br>
-            <input type="email">
+        </section>
 
-        <h2></h2>
+    <!-- Email -->
+        <section>
+            <h2>Email</h2>
+                <label for="Email">Insira um Email</label> <br>
+                <input type="email">
+        </section>
 
+    <!-- Arquivo -->
+        <form method="post" enctype="multipart/form-data">
+            <h2>Arquivo</h2>
+            <div>
+                <label for="profile_pic">Faça um Upload</label> <br>
+                <input
+                    type="file"
+                    id="profile_pic"
+                    name="profile_pic"
+                    accept=".jpg, .jpeg, .png" />
+            </div>
+            <br>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+
+    <!--Imagem botão-->
+        <div>
+            <h2>Imagem botão</h2>
+                <p>Sign in to your account:</p>
+
+                <div>
+                    <label for="userId">login</label>
+                    <input type="text" id="userId" name="userId" />
+                </div>
+    
+            <input
+                type="image"
+                id="image"
+                alt="Login"
+                height="75"
+                src="img/images.png"/>
+        </div>
+
+    <!--Senha -->
+        <section>
+            <h2>Senha</h2>
+            <div>
+                <label for="username">Login:</label> <br>
+                <input type="text" id="username" name="username" />
+            </div>
+            <div>
+                <label for="pass">Senha (minímo 8 caracteres):</label> <br>
+                <input type="senha" id="pass" name="senha" minlength="8" required />
+            </div>
+            <br>
+            <input type="submit" value="Sign in" />
+        </section>
+
+    <!--Rádio (caixa de seleção unica)-->
+        <section>
+            <h2>Rádio</h2>
+            <form>
+                <fieldset>
+                    <legend>Escolha uma das opções a seguir:</legend>
+
+                    <input type="radio" id="maça" name="fruta" value="m"
+                    <label for="maça">maça</label><br>
+
+                    <input type="radio" id="pera" name="fruta" value="p"
+                    <label for="pera">pera</label>
+                </fieldset>
+            </form>
+        </section>
+
+    <!--Reset-->
+        <section>
+            <h2>Reset</h2>
+            <form>
+                <div>
+                    <label for="id">User ID:</label> <br>
+                    <input type="text" id="id" name="id" /> <br>
+    
+                    <input type="reset" value="Reset" />
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+        </section>
+    <!-- Submit -->
+        <section>
+            <h2>Submit (enviar)</h2>
+
+            <input type="submit">
+            <p>Ou</p>
+            <input type="submit" value="Envie aqui" <p> (com o value)</p>
+        </section>
     </main>
     <footer>
 

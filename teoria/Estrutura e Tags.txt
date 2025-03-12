@@ -50,6 +50,7 @@ Principais Tags de texto
     • <abbr>: (Abreviação) (Ao passar o maouse na palavra abreviada ele mostra em uma pequena janela o texto inteiro) 
     • <label> : representa uma legenda para um item em uma interface de usuário.
     • <form> : representa uma seção do documento contendo controles interativos para enviar informações.
+    • <fieldset> : É usado para agrupar vários controles, bem como rótulos ( ) dentro de um formulário da web.<fieldset> <label>
 
 Tags de listas
     • <ul> : (lista não ordenada)

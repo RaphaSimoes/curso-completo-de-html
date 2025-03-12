@@ -33,39 +33,101 @@ Email
     são usados ​​para permitir que o usuário insira e edite um endereço de e-mail ou, se o multipleatributo for especificado, uma lista de endereços de e-mail.
     <input type="email" id="email">
 
-file (pasta)
+file (arquivo)
+    Permitem que o usuário escolha um ou mais arquivos do armazenamento do dispositivo.
     <input type="file">
 
-<input type="hidden">
+        emxemplo:
+            <form method="post" enctype="multipart/form-data">
+                 <div>
+                    <label for="profile_pic">Choose file to upload</label>
+                    <input
+                        type="file"
+                        id="profile_pic"
+                        name="profile_pic"
+                        accept=".jpg, .jpeg, .png" />
+                </div>
+                <div>
+                    <button>Submit</button>
+                </div>
+            </form>
 
 image (imagem)
+    São usados ​​para criar botões de envio gráficos, ou seja, botões de envio que assumem a forma de uma imagem em vez de texto.
     <input type="image">
 
-month (mês)
-    <input type="month">
+    exemplo:
+        <p>Sign in to your account:</p>
 
-number (número) 
-    <input type="number">
+        <div>
+            <label for="userId">User ID</label>
+            <input type="text" id="userId" name="userId" />
+        </div>
+
+        <input
+            type="image"
+            id="image"
+            alt="Login"
+            src="/shared-assets/images/examples/login-button.png" />
 
 password (senha)
+    Fornecem uma maneira para o usuário inserir uma senha com segurança.
     <input type="password">
 
-<input type="radio">
+    emxemplo:
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" />
+        </div>
 
-<input type="range">
-<input type="reset">
+        <div>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="pass" name="password" minlength="8" required />
+        </div>
 
-search (pesquisa)
-    <input type="search">
+        <input type="submit" value="Sign in" />
 
-<input type="submit">
-<input type="tel">
+Radio (caixa de seleção única)
+    Apenas um botão de opção em um determinado grupo pode ser selecionado ao mesmo tempo. Botões de opção são normalmente renderizados como pequenos círculos, que são preenchidos ou destacados quando selecionados.
+    <input type="radio">
 
-text (texto)
-    <input type="text">
+        emxemplo:
+            <fieldset>
+                <legend>Select a maintenance drone:</legend>
 
-<input type="time">
+                <div>
+                    <input type="radio" id="maça" name="fruta" value="m" checked />
+                    <label for="maça">maça</label>
+                </div>
 
-<input type="url">
+                <div>
+                    <input type="radio" id="pera" name="fruta" value="p" />
+                    <label for="pera">pera</label>
+                </div>
+            </fieldset>
 
-<input type="week">
+Reset 
+    são renderizados como botões, com um clickmanipulador de eventos padrão que redefine todas as entradas no formulário para seus valores iniciais.
+        <input type="reset">
+    
+    exemplo:
+        <form>
+            <div class="controls">
+                <label for="id">User ID:</label>
+                <input type="text" id="id" name="id" />
+
+                <input type="reset" value="Reset" />
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+
+Submit (enviar)    
+    são renderizados como botões. Quando o clickevento ocorre (normalmente porque o usuário clicou no botão), o agente do usuário tenta enviar o formulário para o servidor.
+      
+        exemplo:
+        <input type="submit">
+
+
+
+
+
