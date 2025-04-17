@@ -1,0 +1,11 @@
+DIV:
+ ele é usado para agrupar conteúdo para que possa ser facilmente estilizado usando os atributos classou id, marcando uma seção de um documento como tendo sido escrita em um idioma diferente (usando o langatributo ), e assim por diante.
+
+ARTICLE:
+ representa uma composição independente em um documento, página, aplicativo ou site, que se destina a ser distribuída ou reutilizada de forma independente (por exemplo, em distribuição). Exemplos incluem: uma postagem em fórum, um artigo de revista ou jornal, ou uma entrada de blog, um cartão de produto, um comentário enviado por um usuário, um widget ou gadget interativo ou qualquer outro item de conteúdo independente
+
+NAV:
+ representa uma seção de uma página cujo objetivo é fornecer links de navegação, seja dentro do documento atual ou para outros documentos. Exemplos comuns de seções de navegação são menus, sumários e índices.
+
+SECTION:
+ representa uma seção genérica e independente de um documento, que não possui um elemento semântico mais específico para representá- la. As seções devem sempre ter um título, com pouquíssimas exceções
